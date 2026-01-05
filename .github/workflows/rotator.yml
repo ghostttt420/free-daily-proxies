@@ -1,0 +1,36 @@
+name: Proxy-Necromancer
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs every hour at minute 0
+  workflow_dispatch: # Allows you to click "Run" manually to test it
+
+permissions:
+  contents: write # IMPORTANT: Allows the bot to save the new list
+
+jobs:
+  arise:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Dungeon
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Summon Proxies
+        run: python main.py
+
+      - name: Commit the Dead
+        run: |
+          git config --global user.name "Necromancer-Bot"
+          git config --global user.email "bot@darkness.com"
+          git add .
+          # Only commit if there are changes
+          git commit -m "💀 Auto-update: Fresh Proxies" || exit 0
+          git push
