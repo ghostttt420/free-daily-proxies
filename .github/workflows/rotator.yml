@@ -21,7 +21,7 @@ jobs:
           python-version: '3.9'
 
       - name: Install Dependencies
-        run: pip install requests
+        run: pip install requests[socks]
 
       - name: Summon Proxies
         run: python main.py
