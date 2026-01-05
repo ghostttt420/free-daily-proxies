@@ -60,7 +60,7 @@ def main():
         f.write(f"Free proxies are slow and unreliable. If you need speed for scraping or gaming:\n\n")
         
         # THIS IS WHERE THE MONEY COMES FROM
-        f.write(f"### [🚀 CLICK HERE FOR GOD-TIER RESIDENTIAL PROXIES (FAST)](https://smartproxy.pxf.io/c/123456/123456/123456) <--- Recommended\n\n")
+        f.write(f"### [🚀 CLICK HERE FOR GOD-TIER RESIDENTIAL PROXIES (FAST)](https://www.smartproxy.org/register/?invitation_code=NRRW4C) <--- Recommended\n\n")
         
         f.write(f"## 🆓 Free Public List (Slow but Free)\n")
         f.write(f"Updated automatically every hour.\n\n")
