@@ -1,6 +1,6 @@
 # 💀 The Proxy Monarch (Updated Hourly)
 
-![Total Proxies](https://img.shields.io/badge/Total_Online-638-brightgreen)
+![Total Proxies](https://img.shields.io/badge/Total_Online-682-brightgreen)
 
 ## 🛑 STOP USING DEAD PROXIES
 Free proxies die in minutes. For scraping, gaming, or streaming, you need stability.
@@ -8,9 +8,9 @@ Free proxies die in minutes. For scraping, gaming, or streaming, you need stabil
 ### [🚀 CLICK HERE FOR GOD-TIER RESIDENTIAL PROXIES](https://www.smartproxy.org/register/?invitation_code=NRRW4C) <--- 
 
 ## 📊 Current Status
-- **HTTP:** 283
-- **SOCKS4:** 211
-- **SOCKS5:** 144
+- **HTTP:** 329
+- **SOCKS4:** 207
+- **SOCKS5:** 146
 
 ## 📥 Download Lists
 - [HTTP List](http.txt)
