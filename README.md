@@ -8,9 +8,9 @@ Free proxies die in minutes. For scraping, gaming, or streaming, you need stabil
 ### [🚀 CLICK HERE FOR GOD-TIER RESIDENTIAL PROXIES](https://www.smartproxy.org/register/?invitation_code=NRRW4C) <--- 
 
 ## 📊 Current Status
-- **HTTP:** 248
-- **SOCKS4:** 203
-- **SOCKS5:** 120
+- **HTTP:** 264
+- **SOCKS4:** 192
+- **SOCKS5:** 115
 
 ## 📥 Download Lists
 - [HTTP List](http.txt)
